@@ -1,4 +1,4 @@
-package org.booking;
+package org.techiewolf.booking.specs;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;

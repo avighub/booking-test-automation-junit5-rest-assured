@@ -1,4 +1,4 @@
-package org.booking.model;
+package org.techiewolf.booking.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

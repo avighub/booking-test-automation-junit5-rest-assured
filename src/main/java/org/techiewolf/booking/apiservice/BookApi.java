@@ -1,8 +1,9 @@
-package org.booking;
+package org.techiewolf.booking.apiservice;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.booking.model.Book;
+import org.techiewolf.booking.specs.SpecificationFactory;
+import org.techiewolf.booking.model.Book;
 
 public final class BookApi {
     private BookApi() {
