@@ -1,6 +1,8 @@
+package booking;
+
 import io.restassured.response.Response;
-import org.example.Book;
-import org.example.BookApi;
+import org.booking.model.Book;
+import org.booking.BookApi;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
