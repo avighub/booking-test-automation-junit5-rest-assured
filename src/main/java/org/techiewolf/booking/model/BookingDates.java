@@ -3,12 +3,13 @@ package org.techiewolf.booking.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 @Data
-@Builder
+@Builder(setterPrefix = "set")
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
-public class Book {
-  private int id;
-  private String title;
-  private String author;
+@Accessors(chain = true)
+public class BookingDates {
+    private String checkin;
+    private String checkout;
 }
