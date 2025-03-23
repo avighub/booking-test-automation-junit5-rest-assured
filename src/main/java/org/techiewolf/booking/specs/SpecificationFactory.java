@@ -10,7 +10,7 @@ public final class SpecificationFactory {
     public static RequestSpecification getBasicSpec() {
         return new RequestSpecBuilder()
                 .addHeader("Content-Type", "application/json")
-                .setBaseUri("http://localhost:3000")
+                .setBaseUri("https://restful-booker.herokuapp.com")
                 .build();
     }
 }
